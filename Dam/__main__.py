@@ -29,12 +29,10 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("damprivateroom")
-            await bot.join_chat("diarydam")
-            await bot.join_chat("Lunatic0de")
-            await bot.join_chat("SharingUserbot")
-            await bot.join_chat("userunknown404")
-            await bot.join_chat("CilikSupport")
+            await bot.join_chat("monokromsad")
+            await bot.join_chat("troubsnout")
+            await bot.join_chat("sisigelapciara")
+            await bot.join_chat("asupanmonokrom")
             try:
                 await bot.send_message(
                     BOTLOG_CHATID, MSG_ON.format(BOT_VER)
@@ -46,7 +44,7 @@ async def main():
             )
         except Exception as a:
             LOGGER("main").warning(a)
-    LOGGER("Dam").info(f"Dam-Ubot v{BOT_VER} ⚙️[⚡ Activated ⚡]")
+    LOGGER("Dam").info(f"Depa-Ubot v{BOT_VER} ⚙️[⚡ Activated ⚡]")
     if bot1 and not str(BOTLOG_CHATID).startswith("-100"):
         await create_botlog(bot1)
     await idle()
