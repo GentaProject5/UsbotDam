@@ -1,7 +1,7 @@
 {
-  "name": "Dam-Ubot",
-  "description": "[Dam-Ubot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
-  "logo": "https://telegra.ph/file/3ed0efba4cad047af8966.jpg",
+  "name": "Depa-Ubot",
+  "description": "[Depa-Ubot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Cintaku Padamu.",
+  "logo": "https://telegra.ph/file/e06a886b866383dc9f507.jpg",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
